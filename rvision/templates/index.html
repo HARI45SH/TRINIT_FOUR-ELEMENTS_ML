@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Road Mech</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Anta", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .road {
+      width: 250%;
+      overflow-x: hidden;
+      height: 200px;
+      background-color: #3a3939;
+      border-top: 10px solid #756d6d;
+      border-bottom: 10px solid #756d6d;
+      position: relative;
+      margin-bottom: 0;
+      margin-left: -10px;
+      padding: 0;
+    }
+
+    .road-top {
+      height: 5px;
+      width: 250%;
+      position: absolute;
+      left: -10%;
+      top: 50px;
+      border-top: 10px dashed white;
+      margin-top: 25px;
+      animation: road-moving 30s infinite linear;
+      transition: all 1s linear;
+    }
+
+    @keyframes road-moving {
+      100% {
+        transform: translate(-2400px);
+      }
+    }
+    .outer {
+      width: 100%;
+      display: flex;
+      padding-top: 20px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 20px;
+    }
+    .title {
+      display: flex;
+      flex-direction: column;
+      font-size: 30px;
+      color: #3a3939;
+      text-align: center;
+      font-weight: 700;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .title p {
+      font-size: 20px;
+      color: #756d6d;
+      font-weight: 500;
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+      font-size: 30px;
+      letter-spacing: 1px;
+      padding-top: 20px;
+      color: #3a3939;
+      position: relative;
+      padding: 0.2em 0;
+    }
+
+    @media (max-width: 768px) {
+      .title {
+        font-size: 30px;
+        margin-top: 30px;
+      }
+      .title p {
+        font-size: 30px;
+      }
+    }
+    #first {
+      width: 100%;
+      display: flex;
+      padding-top: 20px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 20px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    .upload {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      position: relative;
+    }
+    .upload:hover {
+      cursor: pointer;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    #imageandcam {
+      cursor: pointer;
+    }
+    input {
+      width: 200px;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #3a3939;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    i {
+      color: #3a3939;
+      font-size: 100px;
+      margin-left: 50px;
+    }
+
+    @media (max-width: 500px) {
+      .outer {
+        padding-top: 50px;
+      }
+    }
+    .image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .image img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .result {
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      margin-top: 20px;
+      flex-direction: column;
+    }
+    .result h1 {
+      margin-bottom: 10px;
+    }
+    .result table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .result table td {
+      border: 1px solid black;
+      padding: 10px;
+    }
+    .result table tr:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+    .back {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .back a {
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #8f8c8c;
+      border-radius: 5px;
+      color: white;
+    }
+    .back a:hover {
+      background-color: #6f6c6c;
+      transform: scale(1.1);
+    }
+  </style>
+  <body>
+    <div class="title">
+      <h1>RAI Vision</h1>
+      <p>Virtual Road Mech</p>
+    </div>
+    <div class="outer" id="first" style="display: {{display1}};">
+      <div class="container" id="upload">
+        <div class="imagecam" id="imageandcam">
+          <div class="upload">
+            <i class="bx bxs-cloud-upload"></i>
+            <h1>Upload Image</h1>
+          </div>
+        </div>
+        <form action="/result" method="post" enctype="multipart/form-data">
+          <input
+            type="file"
+            accept="image/*"
+            id="imageInput"
+            name="image"
+
+          />
+          <input
+            type="submit"
+            value="Predict Image"
+            name="submit"
+            class="btn"
+          />
+        </form>
+      </div>
+    </div>
+    <div class="outer" id="show" style="display: {{display2}};">
+      <div class="container">
+        <div class="image">
+          <img id="uploadedImage" src="/static/{{filename}}" alt="image" />
+        </div>
+        <div class="result">
+          <h1>Result</h1>
+          <table>
+            <tr>
+              <td>D00</td>
+              <td>Longitudinal Crack</td>
+              <td>{{ output }}</td>
+            </tr>
+            <tr>
+              <td>D10</td>
+              <td>Transverse Crack</td>
+              <td>{{ outputl }}</td>
+            </tr>
+            <tr>
+              <td>D20</td>
+              <td>Alligator Crack</td>
+              <td>{{ outputl }}</td>
+            </tr>
+            <tr>
+              <td>D40</td>
+              <td>Pothole</td>
+              <td>{{ outputl }}</td>
+            </tr>
+          </table>
+        </div>
+        <div class="back">
+          <a href="{{url_for('home')}}">Back</a>
+        </div>
+      </div>
+    </div>
+    <div class="road">
+      <div class="road-top">
+        <div class="road-top-left"></div>
+        <div class="road-top-right"></div>
+      </div>
+    </div>
+
+  </body>
+</html>
