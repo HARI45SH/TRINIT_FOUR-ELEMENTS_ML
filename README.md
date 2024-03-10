@@ -8,7 +8,7 @@ INTERFACE TOOLS: HTML, CSS, JAVASCRIPT, FLASK
 LANGUAGE USED : PYTHON                                                                                            
 DESCRIPTION:                                                                                                
       We made a novel ensemble model to detect the damages(D00: Longitudinal Crack, D10: Transverse Crack, D20: Alligator Crack, D40: Potholes in the roads ) in the roads to make road transport a safe and viable transport.
-      Our ensemble model is faster and efficient.
+      Our ensemble model is faster and efficient making it user friendly.
                                                                                                             
 DEMO VIDEO PRESENTATION : https://drive.google.com/file/d/1E3gJx8O_dZfcR25OILL8ORkCnlYK_-vO/view?usp=sharing
                                                                                                             
