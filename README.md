@@ -18,6 +18,11 @@ TOOLS USED : TENSORFLOW , PYTORCH, Jupyter NOTEBOOK
 
 
 
+CONFUSION MATRIX FOR D00, D40
+![WhatsApp Image 2024-03-10 at 06 51 56_870b0cd1](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/6326a606-66a1-44dd-8962-ebeea08313b7) 
+
+
+
 
 REFERENCES:
 1) Arya, Deeksha M. et al. “RDD2022: A multi-national image dataset for automatic Road Damage Detection.” ArXiv abs/2209.08538 (2022): n. pag.
