@@ -10,6 +10,10 @@ TOOLS USED : TENSORFLOW , PYTORCH, Jupyter NOTEBOOK
 ![WhatsApp Image 2024-03-10 at 06 47 51_e5045730](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/b6d8d415-5125-4aa2-b299-45f6b28cb8bd)
 
 
+![WhatsApp Image 2024-03-10 at 06 48 55_6c203695](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/0226f7ee-c540-42d1-9ca6-33be7d253a26)
+
+
+
 REFERENCES:
 1) Arya, Deeksha M. et al. “RDD2022: A multi-national image dataset for automatic Road Damage Detection.” ArXiv abs/2209.08538 (2022): n. pag.
 2) Saha, Poonam Kumari and Yoshihide Sekimoto. “Road Damage Detection for Multiple Countries.” 2022 IEEE International Conference on Big Data (Big Data) (2022): 6431-6438.
