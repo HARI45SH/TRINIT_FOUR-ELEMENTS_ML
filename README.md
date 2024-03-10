@@ -1,5 +1,5 @@
 # TRINIT_FOUR-ELEMENTS_ML
-##TEAM NAME : FOUR ELEMENTS  
+##TEAM NAME## : FOUR ELEMENTS  
 PROJECT NAME : INFRA VISION                                                    
 PROBLEM STATEMENT : Automated Road Damage Detection for Infrastructure Maintenance
 DATASET : RDD2022
