@@ -56,8 +56,16 @@ CONFUSION MATRIX FOR D10, D40 :
 ![WhatsApp Image 2024-03-10 at 06 53 42_308165ce](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/01ed7c2a-e9da-4b4e-8265-176865e5ed16)
 
 
-
-
+TRAINING AND VALIDATION ACCURACY:                                                                                                                          
+                                                                                                                                                                
+                                                                                                                                                            
+![WhatsApp Image 2024-03-10 at 08 06 37_c0c04e9b](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/5ad85308-74bc-48be-8392-b24057780008)
+                                                                                                                                                            
+                                                                                                                                                        
+TRAINING AND VALIDATION LOSS:                                                                                                                              
+                                                                                                                                                          
+                                                                                                                                                          
+![WhatsApp Image 2024-03-10 at 08 06 57_41380bfe](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/90777d44-5f67-423d-a3d9-5d862fed2924)
 
 REFERENCES:
 1) Arya, Deeksha M. et al. “RDD2022: A multi-national image dataset for automatic Road Damage Detection.” ArXiv abs/2209.08538 (2022): n. pag.
