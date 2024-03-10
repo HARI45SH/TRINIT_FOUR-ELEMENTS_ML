@@ -1,9 +1,9 @@
 # TRINIT_FOUR-ELEMENTS_ML
 TEAM NAME : FOUR ELEMENTS  
 PROJECT NAME : INFRA VISION                                                    
-PROBLEM STATEMENT : Automated Road Damage Detection for Infrastructure Maintenance
-DATASET : RDD2022
-TOOLS USED : TENSORFLOW , PYTORCH, JUPYTER NOTEBOOK, VISUAL STUDIO CODE
+PROBLEM STATEMENT : Automated Road Damage Detection for Infrastructure Maintenance                          
+DATASET : RDD2022                                                                                            
+TOOLS USED : TENSORFLOW , PYTORCH, JUPYTER NOTEBOOK, VISUAL STUDIO CODE                                      
                                                                                                             
 DEMO VIDEO PRESENTATION : https://drive.google.com/file/d/1E3gJx8O_dZfcR25OILL8ORkCnlYK_-vO/view?usp=sharing
                                                                                                             
