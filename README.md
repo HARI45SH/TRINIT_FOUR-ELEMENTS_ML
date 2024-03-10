@@ -22,7 +22,7 @@ DEMO VIDEO PRESENTATION : https://drive.google.com/file/d/1E3gJx8O_dZfcR25OILL8O
   2) Go to app.py in the repository
   3) Execute the app.py code to get a local host(example : http://127.0.0.1:5000) in the output
   4) Click on the localhost link to open the interface
-  5) Now you can upload the images from data folder in the repo to check and evaluate the model
+  5) Now you can upload the images from inference_images in the repo to check and evaluate the model
                                                                                                              
 CONFIDENCE METRICS FOR D00, D40 :                                                                                                                          
                                                                                                                                                             
