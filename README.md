@@ -5,6 +5,8 @@ PROBLEM STATEMENT : Automated Road Damage Detection for Infrastructure Maintenan
 DATASET : RDD2022
 
 TOOLS USED : TENSORFLOW , PYTORCH, Jupyter NOTEBOOK
+                                                                                                            
+DEMO VIDEO PRESENTATION : https://drive.google.com/file/d/1E3gJx8O_dZfcR25OILL8ORkCnlYK_-vO/view?usp=sharing
 
 CONFIDENCE METRICS FOR D00, D40 :                                                                                                                          
                                                                                                                                                             
