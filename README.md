@@ -5,7 +5,7 @@ PROBLEM STATEMENT : Automated Road Damage Detection for Infrastructure Maintenan
 DATASET : RDD2022                                                                                            
 TOOLS USED : TENSORFLOW , PYTORCH, JUPYTER NOTEBOOK, VISUAL STUDIO CODE                                                                                                                                                       
 INTERFACE TOOLS: HTML, CSS, JAVASCRIPT, FLASK                                                                          
-LANGUAGE USED : PYTHON                                                                                            
+LANGUAGE USED : PYTHON                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 DESCRIPTION:                                                                                                
       We made a novel ensemble model to detect the damages(D00: Longitudinal Crack, D10: Transverse Crack, D20: Alligator Crack, D40: Potholes in the roads ) in the roads to make road transport a safe and viable transport.
       Our ensemble model is faster and efficient making it user friendly.
