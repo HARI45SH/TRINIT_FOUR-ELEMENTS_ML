@@ -6,23 +6,27 @@ DATASET : RDD2022
 
 TOOLS USED : TENSORFLOW , PYTORCH, Jupyter NOTEBOOK
 
-
+CONFIDENCE METRICS FOR D00, D40 :                                                                                                                          
+                                                                                                                                                            
 ![WhatsApp Image 2024-03-10 at 06 47 51_e5045730](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/b6d8d415-5125-4aa2-b299-45f6b28cb8bd)
 
-
+                                                                                                                                                            
+                                                                                                                                                            
+                                                                                                                                                        
 ![WhatsApp Image 2024-03-10 at 06 48 55_6c203695](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/0226f7ee-c540-42d1-9ca6-33be7d253a26)
 
 
-
+CONFIDENCE METRICS FOR D10, D40 :                                                                                                                          
+                                                                                                                                                            
 ![WhatsApp Image 2024-03-10 at 06 50 01_dfb94177](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/be2e1710-0ac8-4f58-a8bf-831f6c5eef80)
 
 
 
-CONFUSION MATRIX FOR D00, D40                                                                                                                                                                                                                                        
+CONFUSION MATRIX FOR D00, D40 :                                                                                                                                                                                                                                       
                                                                                                                                                             
 ![WhatsApp Image 2024-03-10 at 06 51 56_870b0cd1](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/6326a606-66a1-44dd-8962-ebeea08313b7) 
 
-CONFUSION MATRIX FOR D10, D40                                                                                                                                                                                                                                                
+CONFUSION MATRIX FOR D10, D40 :                                                                                                                                                                                                                                               
                                                                                                                                                             
 ![WhatsApp Image 2024-03-10 at 06 53 42_308165ce](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/01ed7c2a-e9da-4b4e-8265-176865e5ed16)
 
