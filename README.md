@@ -3,8 +3,8 @@ TEAM NAME : FOUR ELEMENTS
 PROJECT NAME : INFRA VISION                                                    
 PROBLEM STATEMENT : Automated Road Damage Detection for Infrastructure Maintenance                          
 DATASET : RDD2022                                                                                            
-TOOLS USED : TENSORFLOW , PYTORCH, JUPYTER NOTEBOOK, VISUAL STUDIO CODE 
-INTERFACE : HTML, CSS, JAVASCRIPT, FLASK                                                                          
+TOOLS USED : TENSORFLOW , PYTORCH, JUPYTER NOTEBOOK, VISUAL STUDIO CODE                                                                                                                                                       
+INTERFACE TOOLS: HTML, CSS, JAVASCRIPT, FLASK                                                                          
 LANGUAGE USED : PYTHON                                                                                            
 DESCRIPTION:                                                                                                
       We made a novel ensemble model to detect the damages(D00: Longitudinal Crack, D10: Transverse Crack, D20: Alligator Crack, D40: Potholes in the roads ) in the roads to make road transport a safe and viable transport.
@@ -32,6 +32,13 @@ CONFIDENCE METRICS FOR D00, D40 :
 CONFIDENCE METRICS FOR D10, D40 :                                                                                                                          
                                                                                                                                                             
 ![WhatsApp Image 2024-03-10 at 06 50 01_dfb94177](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/be2e1710-0ac8-4f58-a8bf-831f6c5eef80)
+
+
+
+CONFIDENCE METRICS FOR D10, D20 :                                                                                                                          
+                                                                                                                                                            
+![WhatsApp Image 2024-03-10 at 07 59 56_03ce2b60](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/5b1d1d28-b15d-44d7-b65d-8773183b9463)
+
 
 
 
