@@ -3,11 +3,17 @@ TEAM NAME : FOUR ELEMENTS
 PROJECT NAME : INFRA VISION                                                    
 PROBLEM STATEMENT : Automated Road Damage Detection for Infrastructure Maintenance
 DATASET : RDD2022
-
-TOOLS USED : TENSORFLOW , PYTORCH, Jupyter NOTEBOOK
+TOOLS USED : TENSORFLOW , PYTORCH, JUPYTER NOTEBOOK, VISUAL STUDIO CODE
                                                                                                             
 DEMO VIDEO PRESENTATION : https://drive.google.com/file/d/1E3gJx8O_dZfcR25OILL8ORkCnlYK_-vO/view?usp=sharing
-
+                                                                                                            
+ STEPS TO EVALUATE:
+  1) Download the repository and open in Visual Studio Code or Jupyter Notebook
+  2) Go to app.py in the repository
+  3) Execute the app.py code to get a local host(example : http://127.0.0.1:5000) in the output
+  4) Click on the localhost link to open the interface
+  5) Now you can upload the images from data folder in the repo to check and evaluate the model
+                                                                                                             
 CONFIDENCE METRICS FOR D00, D40 :                                                                                                                          
                                                                                                                                                             
 ![WhatsApp Image 2024-03-10 at 06 47 51_e5045730](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/b6d8d415-5125-4aa2-b299-45f6b28cb8bd)
