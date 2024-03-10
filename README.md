@@ -7,6 +7,8 @@ DATASET : RDD2022
 TOOLS USED : TENSORFLOW , PYTORCH, Jupyter NOTEBOOK
 
 
+![WhatsApp Image 2024-03-10 at 06 47 51_e5045730](https://github.com/HARI45SH/TRINIT_FOUR-ELEMENTS_ML/assets/113191906/b6d8d415-5125-4aa2-b299-45f6b28cb8bd)
+
 
 REFERENCES:
 1) Arya, Deeksha M. et al. “RDD2022: A multi-national image dataset for automatic Road Damage Detection.” ArXiv abs/2209.08538 (2022): n. pag.
